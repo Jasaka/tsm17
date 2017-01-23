@@ -1,0 +1,118 @@
+a,
+a:focus,
+a:active,
+a.active,
+a.hover{
+    color: #ffffff;
+    outline: none;
+    text-decoration: none;
+}
+a:hover{
+    color: #f1f1f1;
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', 'FontAwesome', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+html {
+    background: url(../img/header-bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@media (max-width: 780px) {
+    html{
+        background: url(../img/header-bg-s.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    th.rotate{
+        height: 155px;
+        white-space: nowrap;
+    }
+    th.rotate > div {
+        transform:
+            /* Magic Numbers */
+        translate(0px, 115px)
+            /* 45 is really 360 - 45 */
+        rotate(270deg);
+        width: 20px;
+    }
+}
+body{
+    background-color: transparent;
+    font-family: 'Open Sans', 'FontAwesome', Arial, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+.box{
+    margin-top: 50px;
+    min-height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+    vertical-align: middle;
+}
+
+.yay{
+    background-color: rgba(100,200,150,0.5);
+}
+.nay{
+    background-color: rgba(255,149,156,0.5);
+}
+.has-error .form-control {
+    border: 5px;
+    border-color: #ff1313;
+    background-color: #ff959c;
+}
+.row{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #333333;
+    background-color: hsla(0, 0%, 28%, 0.3);
+}
+.pink-button{
+    border-color: #ff17a1;
+    background-color: #ff17a1;
+    color: #ffffff;
+}
+.back-button{
+    width: 100px;
+}
+.text-white{
+    color: #ffffff;
+}
+.skillBox {
+	padding: 20px;
+    height: 250px;
+}
+.skillCont {
+	background: rgba(255, 255, 255, 0.1);
+	padding: 15px;
+	border: 0;
+	border-radius: 3px;
+	box-shadow: 0 0 3px 2px rgba(255, 255, 255, 0.5);
+	min-height: 200px;
+	text-align: center;
+}
+.skillCont selectpicker {
+	position: relative;
+	margin: 10px;
+}
+.skillCont label {
+	margin: 10px;
+}
